@@ -63,9 +63,9 @@ RSpec.describe SongsController, type: :controller do
     #   expect(assigns(:song)).to be_new_record
     # end
 
-    it "re-renders the template" do
-      expect(response).to render_template("new")
-    end
+    # it "re-renders the template" do
+    #   expect(response).to render_template("new")
+    # end
   end
 
   context "updating a song with valid data" do
