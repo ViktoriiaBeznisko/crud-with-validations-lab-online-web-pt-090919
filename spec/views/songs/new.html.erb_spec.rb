@@ -1,5 +1,5 @@
 RSpec.describe 'songs/new', type: :feature do
-  # it 'renders form' do
+  it 'renders form' do
     visit new_song_path
 
     form = find('form')
